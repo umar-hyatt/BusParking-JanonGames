@@ -1,0 +1,216 @@
+fileFormatVersion: 2
+guid: 9be8a0788b9453744b858d42ddcdf192
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Mesh
+    100004: //RootNode
+    400000: Camera
+    400002: Mesh
+    400004: //RootNode
+    2300000: Mesh
+    3300000: Mesh
+    4300000: Mesh
+    11100000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: beton dach
+    second: {fileID: 2100000, guid: 92fcdc9eb683e304095bb6805d692b01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: beton dachleiste rot
+    second: {fileID: 2100000, guid: 798ed1405738e9c479bca44852ccfe33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: beton fundamente1
+    second: {fileID: 2100000, guid: 12867df91cd4904479cf11c1163eb6a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: beton wand1
+    second: {fileID: 2100000, guid: e9dddd30af30bcc4192ad2c907a61c8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chromed metal
+    second: {fileID: 2100000, guid: 93915ef13b1500f4f8a14d07f2d05da6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lampen 01
+    second: {fileID: 2100000, guid: cc3eac2be0e7f694eaa0e5bca46552f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leuchtstoffroehre leuchtmittel an
+    second: {fileID: 2100000, guid: b66335c374e46fa49a0cce7d831aab9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: motel schild
+    second: {fileID: 2100000, guid: 4bfb6656677474942ae61c28ddfe3a2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: schild
+    second: {fileID: 2100000, guid: cd3d5fc33bebfc3458b4bca1100e663e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tankstelle aussenwand
+    second: {fileID: 2100000, guid: f88c27e88a4b6834792c3ec602db5ef4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tankstelle dachleisten
+    second: {fileID: 2100000, guid: 9975385a8691bbb488b34379652e7b71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tankstelle fensterrahmen metal
+    second: {fileID: 2100000, guid: d908c4fd58b188143ad1794633b4c234, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tankstelle innen boden
+    second: {fileID: 2100000, guid: 128417b44ca7a5d49bd08c301f63163e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tankstelle innen decke
+    second: {fileID: 2100000, guid: 2ece85d6326761b43b07aa6163151f99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tankstelle wand innen
+    second: {fileID: 2100000, guid: c2e6c477aa7c7cd4b915fd854249fc3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tankstelle werkstatt boden
+    second: {fileID: 2100000, guid: 495c2edb9e412bd42933f45accc92ab0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tankstelle werkstatt decke
+    second: {fileID: 2100000, guid: 3977a979fb191e94ea4e468065474985, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tankstelle werkstatt fensterrahmen
+    second: {fileID: 2100000, guid: 013c6bc98ae38b247afe3fcab54368b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tankstelle werkstatt fensterscheiben
+    second: {fileID: 2100000, guid: 78a171a6cba317241a429a9273c451d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tankstelle werkstatt innenwand
+    second: {fileID: 2100000, guid: 2677a1c9c1191904db00364e16ed18af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tankstelle werkstatt t_re
+    second: {fileID: 2100000, guid: 016319d82a063d346b6954d5e961b165, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tankstelle werkstatt tor
+    second: {fileID: 2100000, guid: f0e71478077212142a5c5f071a96e9f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zapfs_ule
+    second: {fileID: 2100000, guid: e9f86fa166e1c2844b7c80078cc65c63, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 39
+    normalImportMode: 1
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

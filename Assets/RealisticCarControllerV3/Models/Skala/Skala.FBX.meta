@@ -1,0 +1,224 @@
+fileFormatVersion: 2
+guid: 2059b56146eecbf499b4d6b9bfb1d987
+ModelImporter:
+  serializedVersion: 25
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skala
+    second: {fileID: 2100000, guid: 02fc5dd68a4ff6f44a1d114a78d667d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skala_2
+    second: {fileID: 2100000, guid: 2e17e91fbefdc4f448ce3ec770e655ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skala_Body
+    second: {fileID: 2100000, guid: 8ae63bfd4ac608e4292195b7f0eed97d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skala_Bump
+    second: {fileID: 2100000, guid: 4539b19a79f861541b59e3203e926a55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skala_Carpet
+    second: {fileID: 2100000, guid: 8b38b687f0ab51a4fa038ac675b70d0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skala_Chrome
+    second: {fileID: 2100000, guid: 41b38fc7f817cb549b720a82f361f3c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skala_Dash
+    second: {fileID: 2100000, guid: 4b04b198b188463489ea20af28ebf202, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skala_Exhaust
+    second: {fileID: 2100000, guid: 29d70085e82cca847875dd0bb03f2eed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skala_Exhaust2
+    second: {fileID: 2100000, guid: 24798273d1573f34d82b94407908d8ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skala_Generic
+    second: {fileID: 2100000, guid: 7e75d68d51d71154ca23b8efb80170da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skala_Lights
+    second: {fileID: 2100000, guid: 0db209b2feb1b8f4d9bf2a40c8138efb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skala_Mirrors
+    second: {fileID: 2100000, guid: 286cd6fc516f73745abe6131453d7a18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skala_Rubber
+    second: {fileID: 2100000, guid: 3f06f9e6d48ceb444a1cc3a8d61a5c79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skala_Tyre
+    second: {fileID: 2100000, guid: 74564d341a30b1848a04a252f7011e62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skala_Windows
+    second: {fileID: 2100000, guid: 3d8f3cff009d6af4da5a90cf1125a4c3, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Skala_
+    second: {fileID: 2800000, guid: cef91de67c7bb71499f2fe93e0b4fb56, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Skala_2
+    second: {fileID: 2800000, guid: 7cade40906078d146beac5d346854c53, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Skala_Carpet
+    second: {fileID: 2800000, guid: 57fa62decd48b404292c709aeebfeb39, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Skala_Exhaust
+    second: {fileID: 2800000, guid: 24d0f68f6401e7c44bdf1a71ae2e9718, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Skala_Exhaust2
+    second: {fileID: 2800000, guid: 1bdf00e9003d3f541be566ef96a141f6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Skala_Generic
+    second: {fileID: 2800000, guid: b0e33f50edc25114488c7536d45852e6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Skala_Generic_N
+    second: {fileID: 2800000, guid: be1bcfec9a434cd4f8f5b5e167831dbd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Skala_Lights
+    second: {fileID: 2800000, guid: aca396c2df89cd5469a4dee655402341, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Skala_Tyre
+    second: {fileID: 2800000, guid: 53aece1cc50b5ff4f9bc316640e44fea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Skala_Tyre_N
+    second: {fileID: 2800000, guid: efd87f6af4523d14590362386b9e2e64, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Skala_bump
+    second: {fileID: 2800000, guid: 6a9b892dd7e6c7a468a04ccd7f331252, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 33
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 33
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

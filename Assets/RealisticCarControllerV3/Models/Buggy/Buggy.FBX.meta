@@ -1,0 +1,239 @@
+fileFormatVersion: 2
+guid: b5f2888b87badac44a3f80dedbda55a7
+ModelImporter:
+  serializedVersion: 25
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Buggy_Body
+    second: {fileID: 2100000, guid: c240c2a13ac2071429e41fabf0563768, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Buggy_Brakelight
+    second: {fileID: 2100000, guid: 59ea4bfe42458b54cbfadeb0f6803c34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Buggy_Damper
+    second: {fileID: 2100000, guid: 4b2bfed25ed288446bce413ebfa235ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Buggy_Dash
+    second: {fileID: 2100000, guid: 5fc7129c80cc80f4c8495577f334009a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Buggy_Engine
+    second: {fileID: 2100000, guid: d567bd25fedd86a428576c9dcd53a9a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Buggy_Frame
+    second: {fileID: 2100000, guid: b77de2b1d6699d14fabfd32981b219f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Buggy_Headlights
+    second: {fileID: 2100000, guid: da08531c323b13d4cb8801e106223714, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Buggy_Interior
+    second: {fileID: 2100000, guid: 3d22d017854dd324380a0936b44bc87c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Buggy_Seats
+    second: {fileID: 2100000, guid: aaa6ee9bf9505a44180065ae79766828, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Buggy_Snorkel
+    second: {fileID: 2100000, guid: b853d8be3420b0f418e1806b8b42166e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Buggy_Spring
+    second: {fileID: 2100000, guid: bece79073205be6459211de179b3081a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Buggy_SteeringWheel
+    second: {fileID: 2100000, guid: 28c70c45f672c37419391304f3d3d4eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Buggy_Tyre
+    second: {fileID: 2100000, guid: e537219eee73d654b94b375a7e08e9b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Buggy_Winch
+    second: {fileID: 2100000, guid: c5de56bcffd644b46b60458220916e85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Buggy_Windows
+    second: {fileID: 2100000, guid: 1b53f4d3af394284c8cfd5530518f2d3, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Buggy_Body
+    second: {fileID: 2800000, guid: bdae3de1605278341aceb42e0e3b1b37, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Buggy_Brakelight
+    second: {fileID: 2800000, guid: 0a313f50337efcf4f8953db76349a4cd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Buggy_DamperF
+    second: {fileID: 2800000, guid: a55ab45745cb7a84ebe8a57459e5992f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Buggy_Dash
+    second: {fileID: 2800000, guid: 3e99dd6223794a645bb3890c33468638, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Buggy_Engine
+    second: {fileID: 2800000, guid: ef7db5cff98b470489d26eadb33cc71c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Buggy_Frame
+    second: {fileID: 2800000, guid: 7f55db9f49967944f92263f6c0a7610c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Buggy_Headlights
+    second: {fileID: 2800000, guid: c83d47c1a6a11044fb6dad15bb36f81f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Buggy_Interior
+    second: {fileID: 2800000, guid: 40bbbb28c69fb9b4b9659fc2f4022cb8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Buggy_Seats
+    second: {fileID: 2800000, guid: bf30b6bbdfe9f3d4f856ccc0aa9492aa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Buggy_Snorkel
+    second: {fileID: 2800000, guid: 16a3f75893a193146b91e19cd36f4c43, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Buggy_Springs
+    second: {fileID: 2800000, guid: 2221ae22a4d5e384aa4ab3e654a083e8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Buggy_SteeringWheel
+    second: {fileID: 2800000, guid: ec9a1c582ea67d243bfa1be1c321e106, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Buggy_Wheel
+    second: {fileID: 2800000, guid: cb3102b3c1c160e4bad692ca98c33fa7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Buggy_Winch
+    second: {fileID: 2800000, guid: 6f52a76763ee35244978bc285ede43cd, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 33
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 33
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
