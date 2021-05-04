@@ -1,7 +1,8 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+//using UnityEngine.SceneManagment;
 
 public class MainMenu : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public Color32 selectedButtonColor;
 public void MainPanel(bool x)
 {
     mainPanel.SetActive(x);
+    
 }
 public void LevelPanel(bool x)
 {
@@ -20,6 +22,7 @@ public void LevelPanel(bool x)
 public void SettingPanel(bool x)
 {
     settingPanel.SetActive(x);
+    
 }
 public void GaragePanel(bool x)
 {
@@ -29,6 +32,7 @@ public void GaragePanel(bool x)
 public void SelectLevel(int x)
 {
     selectLeveled=x;
+    
 }
 public void Sound(string x)
 {

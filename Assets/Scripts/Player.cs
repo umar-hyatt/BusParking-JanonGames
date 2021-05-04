@@ -7,12 +7,14 @@ public class Player : MonoBehaviour
 {
 public  GameObject levelCompPanel,levelFailpanel;
 public Text timerTxt;
+public int Power=3;
 int levelTime;
  void Start()
 {
    if(MainMenu.selectLeveled==1)
    {
      levelTime=30;
+     
    }
    else
    {
@@ -26,6 +28,14 @@ void OnTriggerEnter(Collider other)
   {
      LevelComplete();
   }
+}
+void OnCollisionEnter(Collision other)
+{
+ Power--;
+ if(Power<=0)
+ {
+   LevelFailed();
+ } 
 }
  void LevelComplete()
 {
