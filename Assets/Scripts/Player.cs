@@ -13,18 +13,18 @@ int levelTime;
 {
    if(MainMenu.selectLeveled==1)
    {
-     levelTime=30;
+     levelTime=300;
      
    }
    else
    {
-     levelTime=50;
+     levelTime=300;
    }
    StartCoroutine(Timer(levelTime));
 }
 void OnTriggerEnter(Collider other)
 {
-  if(other.tag=="Parking")
+  if(other.tag=="Finish")
   {
      LevelComplete();
   }
@@ -34,7 +34,7 @@ void OnCollisionEnter(Collision other)
  Power--;
  if(Power<=0)
  {
-   LevelFailed();
+  // LevelFailed();
  } 
 }
  void LevelComplete()
