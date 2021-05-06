@@ -1,0 +1,228 @@
+fileFormatVersion: 2
+guid: dcc09eef9a3d38045809ca573d462d04
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: CH_Civilian_Female_02_LOD0
+    100002: CH_Civilian_Female_02_LOD1
+    100004: Chin
+    100006: //RootNode
+    100008: Head
+    100010: Hips
+    100012: Jaw
+    100014: LeftArm
+    100016: LeftBrow1
+    100018: LeftBrow2
+    100020: LeftCheek
+    100022: LeftCheekBone
+    100024: LeftCrease
+    100026: LeftEye
+    100028: LeftEyeLid
+    100030: LeftEyeLidUp
+    100032: LeftFoot
+    100034: LeftForeArm
+    100036: LeftForeArmRoll
+    100038: LeftHand
+    100040: LeftHandIndex1
+    100042: LeftHandIndex2
+    100044: LeftHandIndex3
+    100046: LeftHandMiddle1
+    100048: LeftHandPinky1
+    100050: LeftHandRing1
+    100052: LeftHandThumb1
+    100054: LeftHandThumb2
+    100056: LeftHandThumb3
+    100058: LeftLeg
+    100060: LeftLip
+    100062: LeftLwrLip
+    100064: LeftShoulder
+    100066: LeftUpLeg
+    100068: LeftUprLip
+    100070: LwrLip
+    100072: Neck
+    100074: Nose_Right
+    100076: Reference
+    100078: RightArm
+    100080: RightBrow1
+    100082: RightBrow2
+    100084: RightCheek
+    100086: RightCheekBone
+    100088: RightCrease
+    100090: RightEye
+    100092: RightEyeLid
+    100094: RightEyeLidUp
+    100096: RightFoot
+    100098: RightForeArm
+    100100: RightForeArmRoll
+    100102: RightHand
+    100104: RightHandIndex1
+    100106: RightHandIndex2
+    100108: RightHandIndex3
+    100110: RightHandMiddle1
+    100112: RightHandPinky1
+    100114: RightHandRing1
+    100116: RightHandThumb1
+    100118: RightHandThumb2
+    100120: RightHandThumb3
+    100122: RightLeg
+    100124: RightLip
+    100126: RightLwrLip
+    100128: RightShoulder
+    100130: RightUpLeg
+    100132: RightUprLip
+    100134: Spine
+    100136: Spine1
+    100138: Spine2
+    100140: UprLip
+    100142: Util
+    400000: CH_Civilian_Female_02_LOD0
+    400002: CH_Civilian_Female_02_LOD1
+    400004: Chin
+    400006: //RootNode
+    400008: Head
+    400010: Hips
+    400012: Jaw
+    400014: LeftArm
+    400016: LeftBrow1
+    400018: LeftBrow2
+    400020: LeftCheek
+    400022: LeftCheekBone
+    400024: LeftCrease
+    400026: LeftEye
+    400028: LeftEyeLid
+    400030: LeftEyeLidUp
+    400032: LeftFoot
+    400034: LeftForeArm
+    400036: LeftForeArmRoll
+    400038: LeftHand
+    400040: LeftHandIndex1
+    400042: LeftHandIndex2
+    400044: LeftHandIndex3
+    400046: LeftHandMiddle1
+    400048: LeftHandPinky1
+    400050: LeftHandRing1
+    400052: LeftHandThumb1
+    400054: LeftHandThumb2
+    400056: LeftHandThumb3
+    400058: LeftLeg
+    400060: LeftLip
+    400062: LeftLwrLip
+    400064: LeftShoulder
+    400066: LeftUpLeg
+    400068: LeftUprLip
+    400070: LwrLip
+    400072: Neck
+    400074: Nose_Right
+    400076: Reference
+    400078: RightArm
+    400080: RightBrow1
+    400082: RightBrow2
+    400084: RightCheek
+    400086: RightCheekBone
+    400088: RightCrease
+    400090: RightEye
+    400092: RightEyeLid
+    400094: RightEyeLidUp
+    400096: RightFoot
+    400098: RightForeArm
+    400100: RightForeArmRoll
+    400102: RightHand
+    400104: RightHandIndex1
+    400106: RightHandIndex2
+    400108: RightHandIndex3
+    400110: RightHandMiddle1
+    400112: RightHandPinky1
+    400114: RightHandRing1
+    400116: RightHandThumb1
+    400118: RightHandThumb2
+    400120: RightHandThumb3
+    400122: RightLeg
+    400124: RightLip
+    400126: RightLwrLip
+    400128: RightShoulder
+    400130: RightUpLeg
+    400132: RightUprLip
+    400134: Spine
+    400136: Spine1
+    400138: Spine2
+    400140: UprLip
+    400142: Util
+    4300000: CH_Civilian_Female_02_LOD0
+    4300002: CH_Civilian_Female_02_LOD1
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: CH_Civilian_Female_02_LOD0
+    13700002: CH_Civilian_Female_02_LOD1
+    20500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.01
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

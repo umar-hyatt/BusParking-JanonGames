@@ -1,0 +1,280 @@
+fileFormatVersion: 2
+guid: ce0879ba5d05cf043a62270d9a687985
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Brow
+    100002: Head
+    100004: Hips
+    100006: Jaw
+    100008: LeftArm
+    100010: LeftArmRoll
+    100012: LeftBrow1
+    100014: LeftBrow2
+    100016: LeftBrow3
+    100018: LeftCheek
+    100020: LeftCheekBone
+    100022: LeftEye
+    100024: LeftFoot
+    100026: LeftForeArm
+    100028: LeftForeArmRoll
+    100030: LeftHand
+    100032: LeftHand 1
+    100034: LeftHand 10
+    100036: LeftHand 11
+    100038: LeftHand 12
+    100040: LeftHand 13
+    100042: LeftHand 14
+    100044: LeftHand 15
+    100046: LeftHand 16
+    100048: LeftHand 2
+    100050: LeftHand 3
+    100052: LeftHand 4
+    100054: LeftHand 5
+    100056: LeftHand 6
+    100058: LeftHand 7
+    100060: LeftHand 8
+    100062: LeftHand 9
+    100064: LeftHand1
+    100066: LeftHand2
+    100068: LeftHand3
+    100070: LeftHand4
+    100072: LeftLeg
+    100074: LeftLid
+    100076: LeftLip
+    100078: LeftLwrLipDn
+    100080: LeftLwrLipUp
+    100082: LeftShoulder
+    100084: LeftToeBase
+    100086: LeftUpLeg
+    100088: LeftUpLid
+    100090: LeftUprlipDn
+    100092: LeftUprLipUp
+    100094: LwrLip
+    100096: Model_M_Salesman
+    100098: //RootNode
+    100100: Neck
+    100102: Nose
+    100104: Reference
+    100106: RightArm
+    100108: RightArmRoll
+    100110: RightBrow1
+    100112: RightBrow2
+    100114: RightBrow3
+    100116: RightCheek
+    100118: RightCheekBone
+    100120: RightEye
+    100122: RightFoot
+    100124: RightForeArm
+    100126: RightForeArmRoll
+    100128: RightHand
+    100130: RightHand 1
+    100132: RightHand 10
+    100134: RightHand 11
+    100136: RightHand 12
+    100138: RightHand 13
+    100140: RightHand 14
+    100142: RightHand 15
+    100144: RightHand 16
+    100146: RightHand 2
+    100148: RightHand 3
+    100150: RightHand 4
+    100152: RightHand 5
+    100154: RightHand 6
+    100156: RightHand 7
+    100158: RightHand 8
+    100160: RightHand 9
+    100162: RightHand5
+    100164: RightHand6
+    100166: RightHand7
+    100168: RightHand8
+    100170: RightLeg
+    100172: RightLid
+    100174: RightLip
+    100176: RightLwrLipDn
+    100178: RightLwrLipUp
+    100180: RightShoulder
+    100182: RightToe
+    100184: RightUpLeg
+    100186: RightUpLid
+    100188: RightUprLipDn
+    100190: RightUprLipUp
+    100192: Spine
+    100194: Spine1
+    100196: Spine2
+    100198: UprLip
+    100200: Util
+    400000: Brow
+    400002: Head
+    400004: Hips
+    400006: Jaw
+    400008: LeftArm
+    400010: LeftArmRoll
+    400012: LeftBrow1
+    400014: LeftBrow2
+    400016: LeftBrow3
+    400018: LeftCheek
+    400020: LeftCheekBone
+    400022: LeftEye
+    400024: LeftFoot
+    400026: LeftForeArm
+    400028: LeftForeArmRoll
+    400030: LeftHand
+    400032: LeftHand 1
+    400034: LeftHand 10
+    400036: LeftHand 11
+    400038: LeftHand 12
+    400040: LeftHand 13
+    400042: LeftHand 14
+    400044: LeftHand 15
+    400046: LeftHand 16
+    400048: LeftHand 2
+    400050: LeftHand 3
+    400052: LeftHand 4
+    400054: LeftHand 5
+    400056: LeftHand 6
+    400058: LeftHand 7
+    400060: LeftHand 8
+    400062: LeftHand 9
+    400064: LeftHand1
+    400066: LeftHand2
+    400068: LeftHand3
+    400070: LeftHand4
+    400072: LeftLeg
+    400074: LeftLid
+    400076: LeftLip
+    400078: LeftLwrLipDn
+    400080: LeftLwrLipUp
+    400082: LeftShoulder
+    400084: LeftToeBase
+    400086: LeftUpLeg
+    400088: LeftUpLid
+    400090: LeftUprlipDn
+    400092: LeftUprLipUp
+    400094: LwrLip
+    400096: Model_M_Salesman
+    400098: //RootNode
+    400100: Neck
+    400102: Nose
+    400104: Reference
+    400106: RightArm
+    400108: RightArmRoll
+    400110: RightBrow1
+    400112: RightBrow2
+    400114: RightBrow3
+    400116: RightCheek
+    400118: RightCheekBone
+    400120: RightEye
+    400122: RightFoot
+    400124: RightForeArm
+    400126: RightForeArmRoll
+    400128: RightHand
+    400130: RightHand 1
+    400132: RightHand 10
+    400134: RightHand 11
+    400136: RightHand 12
+    400138: RightHand 13
+    400140: RightHand 14
+    400142: RightHand 15
+    400144: RightHand 16
+    400146: RightHand 2
+    400148: RightHand 3
+    400150: RightHand 4
+    400152: RightHand 5
+    400154: RightHand 6
+    400156: RightHand 7
+    400158: RightHand 8
+    400160: RightHand 9
+    400162: RightHand5
+    400164: RightHand6
+    400166: RightHand7
+    400168: RightHand8
+    400170: RightLeg
+    400172: RightLid
+    400174: RightLip
+    400176: RightLwrLipDn
+    400178: RightLwrLipUp
+    400180: RightShoulder
+    400182: RightToe
+    400184: RightUpLeg
+    400186: RightUpLid
+    400188: RightUprLipDn
+    400190: RightUprLipUp
+    400192: Spine
+    400194: Spine1
+    400196: Spine2
+    400198: UprLip
+    400200: Util
+    4300000: Model_M_Salesman
+    9500000: //RootNode
+    13700000: Model_M_Salesman
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
