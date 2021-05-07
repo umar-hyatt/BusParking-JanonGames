@@ -1,217 +1,659 @@
 fileFormatVersion: 2
 guid: ce0879ba5d05cf043a62270d9a687985
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    100000: Brow
-    100002: Head
-    100004: Hips
-    100006: Jaw
-    100008: LeftArm
-    100010: LeftArmRoll
-    100012: LeftBrow1
-    100014: LeftBrow2
-    100016: LeftBrow3
-    100018: LeftCheek
-    100020: LeftCheekBone
-    100022: LeftEye
-    100024: LeftFoot
-    100026: LeftForeArm
-    100028: LeftForeArmRoll
-    100030: LeftHand
-    100032: LeftHand 1
-    100034: LeftHand 10
-    100036: LeftHand 11
-    100038: LeftHand 12
-    100040: LeftHand 13
-    100042: LeftHand 14
-    100044: LeftHand 15
-    100046: LeftHand 16
-    100048: LeftHand 2
-    100050: LeftHand 3
-    100052: LeftHand 4
-    100054: LeftHand 5
-    100056: LeftHand 6
-    100058: LeftHand 7
-    100060: LeftHand 8
-    100062: LeftHand 9
-    100064: LeftHand1
-    100066: LeftHand2
-    100068: LeftHand3
-    100070: LeftHand4
-    100072: LeftLeg
-    100074: LeftLid
-    100076: LeftLip
-    100078: LeftLwrLipDn
-    100080: LeftLwrLipUp
-    100082: LeftShoulder
-    100084: LeftToeBase
-    100086: LeftUpLeg
-    100088: LeftUpLid
-    100090: LeftUprlipDn
-    100092: LeftUprLipUp
-    100094: LwrLip
-    100096: Model_M_Salesman
-    100098: //RootNode
-    100100: Neck
-    100102: Nose
-    100104: Reference
-    100106: RightArm
-    100108: RightArmRoll
-    100110: RightBrow1
-    100112: RightBrow2
-    100114: RightBrow3
-    100116: RightCheek
-    100118: RightCheekBone
-    100120: RightEye
-    100122: RightFoot
-    100124: RightForeArm
-    100126: RightForeArmRoll
-    100128: RightHand
-    100130: RightHand 1
-    100132: RightHand 10
-    100134: RightHand 11
-    100136: RightHand 12
-    100138: RightHand 13
-    100140: RightHand 14
-    100142: RightHand 15
-    100144: RightHand 16
-    100146: RightHand 2
-    100148: RightHand 3
-    100150: RightHand 4
-    100152: RightHand 5
-    100154: RightHand 6
-    100156: RightHand 7
-    100158: RightHand 8
-    100160: RightHand 9
-    100162: RightHand5
-    100164: RightHand6
-    100166: RightHand7
-    100168: RightHand8
-    100170: RightLeg
-    100172: RightLid
-    100174: RightLip
-    100176: RightLwrLipDn
-    100178: RightLwrLipUp
-    100180: RightShoulder
-    100182: RightToe
-    100184: RightUpLeg
-    100186: RightUpLid
-    100188: RightUprLipDn
-    100190: RightUprLipUp
-    100192: Spine
-    100194: Spine1
-    100196: Spine2
-    100198: UprLip
-    100200: Util
-    400000: Brow
-    400002: Head
-    400004: Hips
-    400006: Jaw
-    400008: LeftArm
-    400010: LeftArmRoll
-    400012: LeftBrow1
-    400014: LeftBrow2
-    400016: LeftBrow3
-    400018: LeftCheek
-    400020: LeftCheekBone
-    400022: LeftEye
-    400024: LeftFoot
-    400026: LeftForeArm
-    400028: LeftForeArmRoll
-    400030: LeftHand
-    400032: LeftHand 1
-    400034: LeftHand 10
-    400036: LeftHand 11
-    400038: LeftHand 12
-    400040: LeftHand 13
-    400042: LeftHand 14
-    400044: LeftHand 15
-    400046: LeftHand 16
-    400048: LeftHand 2
-    400050: LeftHand 3
-    400052: LeftHand 4
-    400054: LeftHand 5
-    400056: LeftHand 6
-    400058: LeftHand 7
-    400060: LeftHand 8
-    400062: LeftHand 9
-    400064: LeftHand1
-    400066: LeftHand2
-    400068: LeftHand3
-    400070: LeftHand4
-    400072: LeftLeg
-    400074: LeftLid
-    400076: LeftLip
-    400078: LeftLwrLipDn
-    400080: LeftLwrLipUp
-    400082: LeftShoulder
-    400084: LeftToeBase
-    400086: LeftUpLeg
-    400088: LeftUpLid
-    400090: LeftUprlipDn
-    400092: LeftUprLipUp
-    400094: LwrLip
-    400096: Model_M_Salesman
-    400098: //RootNode
-    400100: Neck
-    400102: Nose
-    400104: Reference
-    400106: RightArm
-    400108: RightArmRoll
-    400110: RightBrow1
-    400112: RightBrow2
-    400114: RightBrow3
-    400116: RightCheek
-    400118: RightCheekBone
-    400120: RightEye
-    400122: RightFoot
-    400124: RightForeArm
-    400126: RightForeArmRoll
-    400128: RightHand
-    400130: RightHand 1
-    400132: RightHand 10
-    400134: RightHand 11
-    400136: RightHand 12
-    400138: RightHand 13
-    400140: RightHand 14
-    400142: RightHand 15
-    400144: RightHand 16
-    400146: RightHand 2
-    400148: RightHand 3
-    400150: RightHand 4
-    400152: RightHand 5
-    400154: RightHand 6
-    400156: RightHand 7
-    400158: RightHand 8
-    400160: RightHand 9
-    400162: RightHand5
-    400164: RightHand6
-    400166: RightHand7
-    400168: RightHand8
-    400170: RightLeg
-    400172: RightLid
-    400174: RightLip
-    400176: RightLwrLipDn
-    400178: RightLwrLipUp
-    400180: RightShoulder
-    400182: RightToe
-    400184: RightUpLeg
-    400186: RightUpLid
-    400188: RightUprLipDn
-    400190: RightUprLipUp
-    400192: Spine
-    400194: Spine1
-    400196: Spine2
-    400198: UprLip
-    400200: Util
-    4300000: Model_M_Salesman
-    9500000: //RootNode
-    13700000: Model_M_Salesman
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Brow
+  - first:
+      1: 100002
+    second: Head
+  - first:
+      1: 100004
+    second: Hips
+  - first:
+      1: 100006
+    second: Jaw
+  - first:
+      1: 100008
+    second: LeftArm
+  - first:
+      1: 100010
+    second: LeftArmRoll
+  - first:
+      1: 100012
+    second: LeftBrow1
+  - first:
+      1: 100014
+    second: LeftBrow2
+  - first:
+      1: 100016
+    second: LeftBrow3
+  - first:
+      1: 100018
+    second: LeftCheek
+  - first:
+      1: 100020
+    second: LeftCheekBone
+  - first:
+      1: 100022
+    second: LeftEye
+  - first:
+      1: 100024
+    second: LeftFoot
+  - first:
+      1: 100026
+    second: LeftForeArm
+  - first:
+      1: 100028
+    second: LeftForeArmRoll
+  - first:
+      1: 100030
+    second: LeftHand
+  - first:
+      1: 100032
+    second: LeftHand 1
+  - first:
+      1: 100034
+    second: LeftHand 10
+  - first:
+      1: 100036
+    second: LeftHand 11
+  - first:
+      1: 100038
+    second: LeftHand 12
+  - first:
+      1: 100040
+    second: LeftHand 13
+  - first:
+      1: 100042
+    second: LeftHand 14
+  - first:
+      1: 100044
+    second: LeftHand 15
+  - first:
+      1: 100046
+    second: LeftHand 16
+  - first:
+      1: 100048
+    second: LeftHand 2
+  - first:
+      1: 100050
+    second: LeftHand 3
+  - first:
+      1: 100052
+    second: LeftHand 4
+  - first:
+      1: 100054
+    second: LeftHand 5
+  - first:
+      1: 100056
+    second: LeftHand 6
+  - first:
+      1: 100058
+    second: LeftHand 7
+  - first:
+      1: 100060
+    second: LeftHand 8
+  - first:
+      1: 100062
+    second: LeftHand 9
+  - first:
+      1: 100064
+    second: LeftHand1
+  - first:
+      1: 100066
+    second: LeftHand2
+  - first:
+      1: 100068
+    second: LeftHand3
+  - first:
+      1: 100070
+    second: LeftHand4
+  - first:
+      1: 100072
+    second: LeftLeg
+  - first:
+      1: 100074
+    second: LeftLid
+  - first:
+      1: 100076
+    second: LeftLip
+  - first:
+      1: 100078
+    second: LeftLwrLipDn
+  - first:
+      1: 100080
+    second: LeftLwrLipUp
+  - first:
+      1: 100082
+    second: LeftShoulder
+  - first:
+      1: 100084
+    second: LeftToeBase
+  - first:
+      1: 100086
+    second: LeftUpLeg
+  - first:
+      1: 100088
+    second: LeftUpLid
+  - first:
+      1: 100090
+    second: LeftUprlipDn
+  - first:
+      1: 100092
+    second: LeftUprLipUp
+  - first:
+      1: 100094
+    second: LwrLip
+  - first:
+      1: 100096
+    second: Model_M_Salesman
+  - first:
+      1: 100098
+    second: //RootNode
+  - first:
+      1: 100100
+    second: Neck
+  - first:
+      1: 100102
+    second: Nose
+  - first:
+      1: 100104
+    second: Reference
+  - first:
+      1: 100106
+    second: RightArm
+  - first:
+      1: 100108
+    second: RightArmRoll
+  - first:
+      1: 100110
+    second: RightBrow1
+  - first:
+      1: 100112
+    second: RightBrow2
+  - first:
+      1: 100114
+    second: RightBrow3
+  - first:
+      1: 100116
+    second: RightCheek
+  - first:
+      1: 100118
+    second: RightCheekBone
+  - first:
+      1: 100120
+    second: RightEye
+  - first:
+      1: 100122
+    second: RightFoot
+  - first:
+      1: 100124
+    second: RightForeArm
+  - first:
+      1: 100126
+    second: RightForeArmRoll
+  - first:
+      1: 100128
+    second: RightHand
+  - first:
+      1: 100130
+    second: RightHand 1
+  - first:
+      1: 100132
+    second: RightHand 10
+  - first:
+      1: 100134
+    second: RightHand 11
+  - first:
+      1: 100136
+    second: RightHand 12
+  - first:
+      1: 100138
+    second: RightHand 13
+  - first:
+      1: 100140
+    second: RightHand 14
+  - first:
+      1: 100142
+    second: RightHand 15
+  - first:
+      1: 100144
+    second: RightHand 16
+  - first:
+      1: 100146
+    second: RightHand 2
+  - first:
+      1: 100148
+    second: RightHand 3
+  - first:
+      1: 100150
+    second: RightHand 4
+  - first:
+      1: 100152
+    second: RightHand 5
+  - first:
+      1: 100154
+    second: RightHand 6
+  - first:
+      1: 100156
+    second: RightHand 7
+  - first:
+      1: 100158
+    second: RightHand 8
+  - first:
+      1: 100160
+    second: RightHand 9
+  - first:
+      1: 100162
+    second: RightHand5
+  - first:
+      1: 100164
+    second: RightHand6
+  - first:
+      1: 100166
+    second: RightHand7
+  - first:
+      1: 100168
+    second: RightHand8
+  - first:
+      1: 100170
+    second: RightLeg
+  - first:
+      1: 100172
+    second: RightLid
+  - first:
+      1: 100174
+    second: RightLip
+  - first:
+      1: 100176
+    second: RightLwrLipDn
+  - first:
+      1: 100178
+    second: RightLwrLipUp
+  - first:
+      1: 100180
+    second: RightShoulder
+  - first:
+      1: 100182
+    second: RightToe
+  - first:
+      1: 100184
+    second: RightUpLeg
+  - first:
+      1: 100186
+    second: RightUpLid
+  - first:
+      1: 100188
+    second: RightUprLipDn
+  - first:
+      1: 100190
+    second: RightUprLipUp
+  - first:
+      1: 100192
+    second: Spine
+  - first:
+      1: 100194
+    second: Spine1
+  - first:
+      1: 100196
+    second: Spine2
+  - first:
+      1: 100198
+    second: UprLip
+  - first:
+      1: 100200
+    second: Util
+  - first:
+      4: 400000
+    second: Brow
+  - first:
+      4: 400002
+    second: Head
+  - first:
+      4: 400004
+    second: Hips
+  - first:
+      4: 400006
+    second: Jaw
+  - first:
+      4: 400008
+    second: LeftArm
+  - first:
+      4: 400010
+    second: LeftArmRoll
+  - first:
+      4: 400012
+    second: LeftBrow1
+  - first:
+      4: 400014
+    second: LeftBrow2
+  - first:
+      4: 400016
+    second: LeftBrow3
+  - first:
+      4: 400018
+    second: LeftCheek
+  - first:
+      4: 400020
+    second: LeftCheekBone
+  - first:
+      4: 400022
+    second: LeftEye
+  - first:
+      4: 400024
+    second: LeftFoot
+  - first:
+      4: 400026
+    second: LeftForeArm
+  - first:
+      4: 400028
+    second: LeftForeArmRoll
+  - first:
+      4: 400030
+    second: LeftHand
+  - first:
+      4: 400032
+    second: LeftHand 1
+  - first:
+      4: 400034
+    second: LeftHand 10
+  - first:
+      4: 400036
+    second: LeftHand 11
+  - first:
+      4: 400038
+    second: LeftHand 12
+  - first:
+      4: 400040
+    second: LeftHand 13
+  - first:
+      4: 400042
+    second: LeftHand 14
+  - first:
+      4: 400044
+    second: LeftHand 15
+  - first:
+      4: 400046
+    second: LeftHand 16
+  - first:
+      4: 400048
+    second: LeftHand 2
+  - first:
+      4: 400050
+    second: LeftHand 3
+  - first:
+      4: 400052
+    second: LeftHand 4
+  - first:
+      4: 400054
+    second: LeftHand 5
+  - first:
+      4: 400056
+    second: LeftHand 6
+  - first:
+      4: 400058
+    second: LeftHand 7
+  - first:
+      4: 400060
+    second: LeftHand 8
+  - first:
+      4: 400062
+    second: LeftHand 9
+  - first:
+      4: 400064
+    second: LeftHand1
+  - first:
+      4: 400066
+    second: LeftHand2
+  - first:
+      4: 400068
+    second: LeftHand3
+  - first:
+      4: 400070
+    second: LeftHand4
+  - first:
+      4: 400072
+    second: LeftLeg
+  - first:
+      4: 400074
+    second: LeftLid
+  - first:
+      4: 400076
+    second: LeftLip
+  - first:
+      4: 400078
+    second: LeftLwrLipDn
+  - first:
+      4: 400080
+    second: LeftLwrLipUp
+  - first:
+      4: 400082
+    second: LeftShoulder
+  - first:
+      4: 400084
+    second: LeftToeBase
+  - first:
+      4: 400086
+    second: LeftUpLeg
+  - first:
+      4: 400088
+    second: LeftUpLid
+  - first:
+      4: 400090
+    second: LeftUprlipDn
+  - first:
+      4: 400092
+    second: LeftUprLipUp
+  - first:
+      4: 400094
+    second: LwrLip
+  - first:
+      4: 400096
+    second: Model_M_Salesman
+  - first:
+      4: 400098
+    second: //RootNode
+  - first:
+      4: 400100
+    second: Neck
+  - first:
+      4: 400102
+    second: Nose
+  - first:
+      4: 400104
+    second: Reference
+  - first:
+      4: 400106
+    second: RightArm
+  - first:
+      4: 400108
+    second: RightArmRoll
+  - first:
+      4: 400110
+    second: RightBrow1
+  - first:
+      4: 400112
+    second: RightBrow2
+  - first:
+      4: 400114
+    second: RightBrow3
+  - first:
+      4: 400116
+    second: RightCheek
+  - first:
+      4: 400118
+    second: RightCheekBone
+  - first:
+      4: 400120
+    second: RightEye
+  - first:
+      4: 400122
+    second: RightFoot
+  - first:
+      4: 400124
+    second: RightForeArm
+  - first:
+      4: 400126
+    second: RightForeArmRoll
+  - first:
+      4: 400128
+    second: RightHand
+  - first:
+      4: 400130
+    second: RightHand 1
+  - first:
+      4: 400132
+    second: RightHand 10
+  - first:
+      4: 400134
+    second: RightHand 11
+  - first:
+      4: 400136
+    second: RightHand 12
+  - first:
+      4: 400138
+    second: RightHand 13
+  - first:
+      4: 400140
+    second: RightHand 14
+  - first:
+      4: 400142
+    second: RightHand 15
+  - first:
+      4: 400144
+    second: RightHand 16
+  - first:
+      4: 400146
+    second: RightHand 2
+  - first:
+      4: 400148
+    second: RightHand 3
+  - first:
+      4: 400150
+    second: RightHand 4
+  - first:
+      4: 400152
+    second: RightHand 5
+  - first:
+      4: 400154
+    second: RightHand 6
+  - first:
+      4: 400156
+    second: RightHand 7
+  - first:
+      4: 400158
+    second: RightHand 8
+  - first:
+      4: 400160
+    second: RightHand 9
+  - first:
+      4: 400162
+    second: RightHand5
+  - first:
+      4: 400164
+    second: RightHand6
+  - first:
+      4: 400166
+    second: RightHand7
+  - first:
+      4: 400168
+    second: RightHand8
+  - first:
+      4: 400170
+    second: RightLeg
+  - first:
+      4: 400172
+    second: RightLid
+  - first:
+      4: 400174
+    second: RightLip
+  - first:
+      4: 400176
+    second: RightLwrLipDn
+  - first:
+      4: 400178
+    second: RightLwrLipUp
+  - first:
+      4: 400180
+    second: RightShoulder
+  - first:
+      4: 400182
+    second: RightToe
+  - first:
+      4: 400184
+    second: RightUpLeg
+  - first:
+      4: 400186
+    second: RightUpLid
+  - first:
+      4: 400188
+    second: RightUprLipDn
+  - first:
+      4: 400190
+    second: RightUprLipUp
+  - first:
+      4: 400192
+    second: Spine
+  - first:
+      4: 400194
+    second: Spine1
+  - first:
+      4: 400196
+    second: Spine2
+  - first:
+      4: 400198
+    second: UprLip
+  - first:
+      4: 400200
+    second: Util
+  - first:
+      43: 4300000
+    second: Model_M_Salesman
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Model_M_Salesman
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Eyelashes
+    second: {fileID: 2100000, guid: e9b0dc6387a9b0f44bd412116c392019, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Eyes
+    second: {fileID: 2100000, guid: 1856fadeb3aaec74fa29aebbf1ae5b78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Hair_Male
+    second: {fileID: 2100000, guid: 588eb197e469a524fad979ced439331e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Hands
+    second: {fileID: 2100000, guid: 2299081ed792bad4bb87b8b116f21884, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_HeadBase_Male_01
+    second: {fileID: 2100000, guid: d3e3aeb5a79373a4c9c2060f5963d91c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_P_CH_Salesman_Body
+    second: {fileID: 2100000, guid: cdf82e98a50fa3f4b9ddba7962e133c8, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 1
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -224,26 +666,40 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.01
+    globalScale: 0.013
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -253,10 +709,14 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -266,14 +726,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.013
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

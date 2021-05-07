@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7756f06ac1b082e4bb1697f768a5a41f, type: 3}
   m_Name: RCC_Settings
   m_EditorClassIdentifier: 
-  controllerSelectedIndex: 0
+  controllerSelectedIndex: 1
   behaviorSelectedIndex: 1
   overrideBehavior: 1
   overrideFPS: 1
@@ -22,7 +22,7 @@ MonoBehaviour:
   maxFPS: 60
   useFixedWheelColliders: 1
   lockAndUnlockCursor: 0
-  controllerType: 0
+  controllerType: 1
   behaviorTypes:
   - behaviorName: Simulator
     steeringHelper: 1

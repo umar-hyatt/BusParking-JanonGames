@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
 public GameObject mainPanel,levelPanel,settingPanel,garagePanel;
-public static int selectLeveled;
+public  int selectLeveled;
 public Button soundOn,soundOff,steering,Arrow,Tilt;
 public Color32 selectedButtonColor;
 public void MainPanel(bool x)
@@ -37,6 +37,7 @@ public void GaragePanel(bool x)
 public void SelectLevel(int x)
 {
     SoundManager.instance.Click();
+    PlayerPrefs.SetInt("SelectedLevel", x);
     selectLeveled=x;
     SceneManager.LoadScene("GamePlay");
     

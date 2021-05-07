@@ -1,133 +1,392 @@
 fileFormatVersion: 2
 guid: 4920b393c4b8d7a44b05d40132091bc8
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    100000: Head
-    100002: Hips
-    100004: LeftArm
-    100006: LeftEye
-    100008: LeftEyeLid
-    100010: LeftEyeLidUp
-    100012: LeftFoot
-    100014: LeftForeArm
-    100016: LeftHand
-    100018: LeftHandIndex1
-    100020: LeftHandIndex2
-    100022: LeftHandIndex3
-    100024: LeftHandThumb1
-    100026: LeftHandThumb2
-    100028: LeftHandThumb3
-    100030: LeftLeg
-    100032: LeftShoulder
-    100034: LeftUpLeg
-    100036: //RootNode
-    100038: Model_Boy
-    100040: Neck
-    100042: Reference
-    100044: RightArm
-    100046: RightEye
-    100048: RightEyeLid
-    100050: RightEyeLidUp
-    100052: RightFoot
-    100054: RightForeArm
-    100056: RightHand
-    100058: RightHandIndex1
-    100060: RightHandIndex2
-    100062: RightHandIndex3
-    100064: RightHandThumb1
-    100066: RightHandThumb2
-    100068: RightHandThumb3
-    100070: RightLeg
-    100072: RightShoulder
-    100074: RightUpLeg
-    100076: Spine
-    100078: Spine1
-    100080: Spine2
-    100082: Util
-    100084: Kid_Boy
-    100086: transform12
-    100088: transform13
-    100090: transform15
-    100092: transform21
-    100094: transform22
-    100096: transform24
-    100098: transform3
-    100100: transform30
-    100102: transform31
-    100104: transform33
-    100106: transform39
-    100108: transform4
-    100110: transform40
-    100112: transform42
-    100114: transform6
-    400000: Head
-    400002: Hips
-    400004: LeftArm
-    400006: LeftEye
-    400008: LeftEyeLid
-    400010: LeftEyeLidUp
-    400012: LeftFoot
-    400014: LeftForeArm
-    400016: LeftHand
-    400018: LeftHandIndex1
-    400020: LeftHandIndex2
-    400022: LeftHandIndex3
-    400024: LeftHandThumb1
-    400026: LeftHandThumb2
-    400028: LeftHandThumb3
-    400030: LeftLeg
-    400032: LeftShoulder
-    400034: LeftUpLeg
-    400036: //RootNode
-    400038: Model_Boy
-    400040: Neck
-    400042: Reference
-    400044: RightArm
-    400046: RightEye
-    400048: RightEyeLid
-    400050: RightEyeLidUp
-    400052: RightFoot
-    400054: RightForeArm
-    400056: RightHand
-    400058: RightHandIndex1
-    400060: RightHandIndex2
-    400062: RightHandIndex3
-    400064: RightHandThumb1
-    400066: RightHandThumb2
-    400068: RightHandThumb3
-    400070: RightLeg
-    400072: RightShoulder
-    400074: RightUpLeg
-    400076: Spine
-    400078: Spine1
-    400080: Spine2
-    400082: Util
-    400084: Kid_Boy
-    400086: transform12
-    400088: transform13
-    400090: transform15
-    400092: transform21
-    400094: transform22
-    400096: transform24
-    400098: transform3
-    400100: transform30
-    400102: transform31
-    400104: transform33
-    400106: transform39
-    400108: transform4
-    400110: transform40
-    400112: transform42
-    400114: transform6
-    4300000: Model_Boy
-    4300002: Kid_Boy
-    9500000: //RootNode
-    13700000: Model_Boy
-    13700002: Kid_Boy
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Head
+  - first:
+      1: 100002
+    second: Hips
+  - first:
+      1: 100004
+    second: LeftArm
+  - first:
+      1: 100006
+    second: LeftEye
+  - first:
+      1: 100008
+    second: LeftEyeLid
+  - first:
+      1: 100010
+    second: LeftEyeLidUp
+  - first:
+      1: 100012
+    second: LeftFoot
+  - first:
+      1: 100014
+    second: LeftForeArm
+  - first:
+      1: 100016
+    second: LeftHand
+  - first:
+      1: 100018
+    second: LeftHandIndex1
+  - first:
+      1: 100020
+    second: LeftHandIndex2
+  - first:
+      1: 100022
+    second: LeftHandIndex3
+  - first:
+      1: 100024
+    second: LeftHandThumb1
+  - first:
+      1: 100026
+    second: LeftHandThumb2
+  - first:
+      1: 100028
+    second: LeftHandThumb3
+  - first:
+      1: 100030
+    second: LeftLeg
+  - first:
+      1: 100032
+    second: LeftShoulder
+  - first:
+      1: 100034
+    second: LeftUpLeg
+  - first:
+      1: 100036
+    second: //RootNode
+  - first:
+      1: 100038
+    second: Model_Boy
+  - first:
+      1: 100040
+    second: Neck
+  - first:
+      1: 100042
+    second: Reference
+  - first:
+      1: 100044
+    second: RightArm
+  - first:
+      1: 100046
+    second: RightEye
+  - first:
+      1: 100048
+    second: RightEyeLid
+  - first:
+      1: 100050
+    second: RightEyeLidUp
+  - first:
+      1: 100052
+    second: RightFoot
+  - first:
+      1: 100054
+    second: RightForeArm
+  - first:
+      1: 100056
+    second: RightHand
+  - first:
+      1: 100058
+    second: RightHandIndex1
+  - first:
+      1: 100060
+    second: RightHandIndex2
+  - first:
+      1: 100062
+    second: RightHandIndex3
+  - first:
+      1: 100064
+    second: RightHandThumb1
+  - first:
+      1: 100066
+    second: RightHandThumb2
+  - first:
+      1: 100068
+    second: RightHandThumb3
+  - first:
+      1: 100070
+    second: RightLeg
+  - first:
+      1: 100072
+    second: RightShoulder
+  - first:
+      1: 100074
+    second: RightUpLeg
+  - first:
+      1: 100076
+    second: Spine
+  - first:
+      1: 100078
+    second: Spine1
+  - first:
+      1: 100080
+    second: Spine2
+  - first:
+      1: 100082
+    second: Util
+  - first:
+      1: 100084
+    second: Kid_Boy
+  - first:
+      1: 100086
+    second: transform12
+  - first:
+      1: 100088
+    second: transform13
+  - first:
+      1: 100090
+    second: transform15
+  - first:
+      1: 100092
+    second: transform21
+  - first:
+      1: 100094
+    second: transform22
+  - first:
+      1: 100096
+    second: transform24
+  - first:
+      1: 100098
+    second: transform3
+  - first:
+      1: 100100
+    second: transform30
+  - first:
+      1: 100102
+    second: transform31
+  - first:
+      1: 100104
+    second: transform33
+  - first:
+      1: 100106
+    second: transform39
+  - first:
+      1: 100108
+    second: transform4
+  - first:
+      1: 100110
+    second: transform40
+  - first:
+      1: 100112
+    second: transform42
+  - first:
+      1: 100114
+    second: transform6
+  - first:
+      4: 400000
+    second: Head
+  - first:
+      4: 400002
+    second: Hips
+  - first:
+      4: 400004
+    second: LeftArm
+  - first:
+      4: 400006
+    second: LeftEye
+  - first:
+      4: 400008
+    second: LeftEyeLid
+  - first:
+      4: 400010
+    second: LeftEyeLidUp
+  - first:
+      4: 400012
+    second: LeftFoot
+  - first:
+      4: 400014
+    second: LeftForeArm
+  - first:
+      4: 400016
+    second: LeftHand
+  - first:
+      4: 400018
+    second: LeftHandIndex1
+  - first:
+      4: 400020
+    second: LeftHandIndex2
+  - first:
+      4: 400022
+    second: LeftHandIndex3
+  - first:
+      4: 400024
+    second: LeftHandThumb1
+  - first:
+      4: 400026
+    second: LeftHandThumb2
+  - first:
+      4: 400028
+    second: LeftHandThumb3
+  - first:
+      4: 400030
+    second: LeftLeg
+  - first:
+      4: 400032
+    second: LeftShoulder
+  - first:
+      4: 400034
+    second: LeftUpLeg
+  - first:
+      4: 400036
+    second: //RootNode
+  - first:
+      4: 400038
+    second: Model_Boy
+  - first:
+      4: 400040
+    second: Neck
+  - first:
+      4: 400042
+    second: Reference
+  - first:
+      4: 400044
+    second: RightArm
+  - first:
+      4: 400046
+    second: RightEye
+  - first:
+      4: 400048
+    second: RightEyeLid
+  - first:
+      4: 400050
+    second: RightEyeLidUp
+  - first:
+      4: 400052
+    second: RightFoot
+  - first:
+      4: 400054
+    second: RightForeArm
+  - first:
+      4: 400056
+    second: RightHand
+  - first:
+      4: 400058
+    second: RightHandIndex1
+  - first:
+      4: 400060
+    second: RightHandIndex2
+  - first:
+      4: 400062
+    second: RightHandIndex3
+  - first:
+      4: 400064
+    second: RightHandThumb1
+  - first:
+      4: 400066
+    second: RightHandThumb2
+  - first:
+      4: 400068
+    second: RightHandThumb3
+  - first:
+      4: 400070
+    second: RightLeg
+  - first:
+      4: 400072
+    second: RightShoulder
+  - first:
+      4: 400074
+    second: RightUpLeg
+  - first:
+      4: 400076
+    second: Spine
+  - first:
+      4: 400078
+    second: Spine1
+  - first:
+      4: 400080
+    second: Spine2
+  - first:
+      4: 400082
+    second: Util
+  - first:
+      4: 400084
+    second: Kid_Boy
+  - first:
+      4: 400086
+    second: transform12
+  - first:
+      4: 400088
+    second: transform13
+  - first:
+      4: 400090
+    second: transform15
+  - first:
+      4: 400092
+    second: transform21
+  - first:
+      4: 400094
+    second: transform22
+  - first:
+      4: 400096
+    second: transform24
+  - first:
+      4: 400098
+    second: transform3
+  - first:
+      4: 400100
+    second: transform30
+  - first:
+      4: 400102
+    second: transform31
+  - first:
+      4: 400104
+    second: transform33
+  - first:
+      4: 400106
+    second: transform39
+  - first:
+      4: 400108
+    second: transform4
+  - first:
+      4: 400110
+    second: transform40
+  - first:
+      4: 400112
+    second: transform42
+  - first:
+      4: 400114
+    second: transform6
+  - first:
+      43: 4300000
+    second: Model_Boy
+  - first:
+      43: 4300002
+    second: Kid_Boy
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Model_Boy
+  - first:
+      137: 13700002
+    second: Kid_Boy
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Boy_Clothes
+    second: {fileID: 2100000, guid: 84f4bdd019879af4b99f546f3409106d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Boy_Eyes
+    second: {fileID: 2100000, guid: 22537696f09ee914d9a9779dd91f05af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Boy_Face
+    second: {fileID: 2100000, guid: c00f20d337093aa4f85780c9e4b55817, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 1
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -140,26 +399,40 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.01
+    globalScale: 0.013
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -169,10 +442,14 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -182,14 +459,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.013
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

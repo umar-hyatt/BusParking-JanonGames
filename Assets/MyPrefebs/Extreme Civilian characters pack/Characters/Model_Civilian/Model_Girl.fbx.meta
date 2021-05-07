@@ -1,99 +1,290 @@
 fileFormatVersion: 2
 guid: 1df889b15bda1324ca98da528c686057
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    100000: Head
-    100002: Hips
-    100004: LeftArm
-    100006: LeftEye
-    100008: LeftEyeLid
-    100010: LeftEyeLidUp
-    100012: LeftFoot
-    100014: LeftForeArm
-    100016: LeftHand
-    100018: LeftHandIndex1
-    100020: LeftHandIndex2
-    100022: LeftHandIndex3
-    100024: LeftHandThumb1
-    100026: LeftHandThumb2
-    100028: LeftHandThumb3
-    100030: LeftLeg
-    100032: LeftShoulder
-    100034: LeftUpLeg
-    100036: //RootNode
-    100038: Model_Girl
-    100040: Neck
-    100042: Reference
-    100044: RightArm
-    100046: RightEye
-    100048: RightEyeLid
-    100050: RightEyeLidUp
-    100052: RightFoot
-    100054: RightForeArm
-    100056: RightHand
-    100058: RightHandIndex1
-    100060: RightHandIndex2
-    100062: RightHandIndex3
-    100064: RightHandThumb1
-    100066: RightHandThumb2
-    100068: RightHandThumb3
-    100070: RightLeg
-    100072: RightShoulder
-    100074: RightUpLeg
-    100076: Spine
-    100078: Spine1
-    100080: Spine2
-    100082: Util
-    400000: Head
-    400002: Hips
-    400004: LeftArm
-    400006: LeftEye
-    400008: LeftEyeLid
-    400010: LeftEyeLidUp
-    400012: LeftFoot
-    400014: LeftForeArm
-    400016: LeftHand
-    400018: LeftHandIndex1
-    400020: LeftHandIndex2
-    400022: LeftHandIndex3
-    400024: LeftHandThumb1
-    400026: LeftHandThumb2
-    400028: LeftHandThumb3
-    400030: LeftLeg
-    400032: LeftShoulder
-    400034: LeftUpLeg
-    400036: //RootNode
-    400038: Model_Girl
-    400040: Neck
-    400042: Reference
-    400044: RightArm
-    400046: RightEye
-    400048: RightEyeLid
-    400050: RightEyeLidUp
-    400052: RightFoot
-    400054: RightForeArm
-    400056: RightHand
-    400058: RightHandIndex1
-    400060: RightHandIndex2
-    400062: RightHandIndex3
-    400064: RightHandThumb1
-    400066: RightHandThumb2
-    400068: RightHandThumb3
-    400070: RightLeg
-    400072: RightShoulder
-    400074: RightUpLeg
-    400076: Spine
-    400078: Spine1
-    400080: Spine2
-    400082: Util
-    4300000: Model_Girl
-    9500000: //RootNode
-    13700000: Model_Girl
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Head
+  - first:
+      1: 100002
+    second: Hips
+  - first:
+      1: 100004
+    second: LeftArm
+  - first:
+      1: 100006
+    second: LeftEye
+  - first:
+      1: 100008
+    second: LeftEyeLid
+  - first:
+      1: 100010
+    second: LeftEyeLidUp
+  - first:
+      1: 100012
+    second: LeftFoot
+  - first:
+      1: 100014
+    second: LeftForeArm
+  - first:
+      1: 100016
+    second: LeftHand
+  - first:
+      1: 100018
+    second: LeftHandIndex1
+  - first:
+      1: 100020
+    second: LeftHandIndex2
+  - first:
+      1: 100022
+    second: LeftHandIndex3
+  - first:
+      1: 100024
+    second: LeftHandThumb1
+  - first:
+      1: 100026
+    second: LeftHandThumb2
+  - first:
+      1: 100028
+    second: LeftHandThumb3
+  - first:
+      1: 100030
+    second: LeftLeg
+  - first:
+      1: 100032
+    second: LeftShoulder
+  - first:
+      1: 100034
+    second: LeftUpLeg
+  - first:
+      1: 100036
+    second: //RootNode
+  - first:
+      1: 100038
+    second: Model_Girl
+  - first:
+      1: 100040
+    second: Neck
+  - first:
+      1: 100042
+    second: Reference
+  - first:
+      1: 100044
+    second: RightArm
+  - first:
+      1: 100046
+    second: RightEye
+  - first:
+      1: 100048
+    second: RightEyeLid
+  - first:
+      1: 100050
+    second: RightEyeLidUp
+  - first:
+      1: 100052
+    second: RightFoot
+  - first:
+      1: 100054
+    second: RightForeArm
+  - first:
+      1: 100056
+    second: RightHand
+  - first:
+      1: 100058
+    second: RightHandIndex1
+  - first:
+      1: 100060
+    second: RightHandIndex2
+  - first:
+      1: 100062
+    second: RightHandIndex3
+  - first:
+      1: 100064
+    second: RightHandThumb1
+  - first:
+      1: 100066
+    second: RightHandThumb2
+  - first:
+      1: 100068
+    second: RightHandThumb3
+  - first:
+      1: 100070
+    second: RightLeg
+  - first:
+      1: 100072
+    second: RightShoulder
+  - first:
+      1: 100074
+    second: RightUpLeg
+  - first:
+      1: 100076
+    second: Spine
+  - first:
+      1: 100078
+    second: Spine1
+  - first:
+      1: 100080
+    second: Spine2
+  - first:
+      1: 100082
+    second: Util
+  - first:
+      4: 400000
+    second: Head
+  - first:
+      4: 400002
+    second: Hips
+  - first:
+      4: 400004
+    second: LeftArm
+  - first:
+      4: 400006
+    second: LeftEye
+  - first:
+      4: 400008
+    second: LeftEyeLid
+  - first:
+      4: 400010
+    second: LeftEyeLidUp
+  - first:
+      4: 400012
+    second: LeftFoot
+  - first:
+      4: 400014
+    second: LeftForeArm
+  - first:
+      4: 400016
+    second: LeftHand
+  - first:
+      4: 400018
+    second: LeftHandIndex1
+  - first:
+      4: 400020
+    second: LeftHandIndex2
+  - first:
+      4: 400022
+    second: LeftHandIndex3
+  - first:
+      4: 400024
+    second: LeftHandThumb1
+  - first:
+      4: 400026
+    second: LeftHandThumb2
+  - first:
+      4: 400028
+    second: LeftHandThumb3
+  - first:
+      4: 400030
+    second: LeftLeg
+  - first:
+      4: 400032
+    second: LeftShoulder
+  - first:
+      4: 400034
+    second: LeftUpLeg
+  - first:
+      4: 400036
+    second: //RootNode
+  - first:
+      4: 400038
+    second: Model_Girl
+  - first:
+      4: 400040
+    second: Neck
+  - first:
+      4: 400042
+    second: Reference
+  - first:
+      4: 400044
+    second: RightArm
+  - first:
+      4: 400046
+    second: RightEye
+  - first:
+      4: 400048
+    second: RightEyeLid
+  - first:
+      4: 400050
+    second: RightEyeLidUp
+  - first:
+      4: 400052
+    second: RightFoot
+  - first:
+      4: 400054
+    second: RightForeArm
+  - first:
+      4: 400056
+    second: RightHand
+  - first:
+      4: 400058
+    second: RightHandIndex1
+  - first:
+      4: 400060
+    second: RightHandIndex2
+  - first:
+      4: 400062
+    second: RightHandIndex3
+  - first:
+      4: 400064
+    second: RightHandThumb1
+  - first:
+      4: 400066
+    second: RightHandThumb2
+  - first:
+      4: 400068
+    second: RightHandThumb3
+  - first:
+      4: 400070
+    second: RightLeg
+  - first:
+      4: 400072
+    second: RightShoulder
+  - first:
+      4: 400074
+    second: RightUpLeg
+  - first:
+      4: 400076
+    second: Spine
+  - first:
+      4: 400078
+    second: Spine1
+  - first:
+      4: 400080
+    second: Spine2
+  - first:
+      4: 400082
+    second: Util
+  - first:
+      43: 4300000
+    second: Model_Girl
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Model_Girl
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Girl_Clothes
+    second: {fileID: 2100000, guid: 3884b25eee0c2584bac9ff5c0803c3e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Girl_Face
+    second: {fileID: 2100000, guid: d02ab502a09c1eb48958d850f6ae2c80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Girl_Face_Alpha
+    second: {fileID: 2100000, guid: 9a81b3e23fe4be747ae42508804843c4, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 1
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -106,26 +297,40 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.01
+    globalScale: 0.013
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -135,10 +340,14 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -148,14 +357,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.013
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
