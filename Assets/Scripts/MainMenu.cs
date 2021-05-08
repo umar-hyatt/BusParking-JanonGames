@@ -3,22 +3,36 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-//using UnityEngine.SceneManagment;
 
 public class MainMenu : MonoBehaviour
 {
-public GameObject mainPanel,levelPanel,settingPanel,garagePanel;
-public  int selectLeveled;
+public GameObject mainPanel,levelPanel,settingPanel,garagePanel,car1,car2;
+public static int selectLeveled;
+public static int selectedBus;
 public Button soundOn,soundOff,steering,Arrow,Tilt;
 public Color32 selectedButtonColor;
+void Start()
+{
+    AdsScript.instance.ShowSmartBanner();
+}
 public void MainPanel(bool x)
 {
     SoundManager.instance.Click();
     mainPanel.SetActive(x);
-    
 }
 public void LevelPanel(bool x)
 {
+    if(x)
+    {
+        if(car1.activeInHierarchy)
+        {
+        selectedBus=1;
+        }
+        else
+        {
+        selectedBus=2;
+        }
+    }
     SoundManager.instance.Click();
     levelPanel.SetActive(x);
 }
@@ -30,6 +44,10 @@ public void SettingPanel(bool x)
 }
 public void GaragePanel(bool x)
 {
+    if(x)
+    {
+      AdsScript.instance.ShowInterstitial();
+    }
     SoundManager.instance.Click();
     garagePanel.SetActive(x);
 }
@@ -37,10 +55,39 @@ public void GaragePanel(bool x)
 public void SelectLevel(int x)
 {
     SoundManager.instance.Click();
+    AdsScript.instance.ShowInterstitial();
     PlayerPrefs.SetInt("SelectedLevel", x);
     selectLeveled=x;
     SceneManager.LoadScene("GamePlay");
     
+}
+public void NextCar()
+{
+    SoundManager.instance.Click();
+    if(car1.activeInHierarchy)
+    {
+        car1.SetActive(false);
+        car2.SetActive(true);
+    }
+    else
+    {
+       car1.SetActive(true);
+       car2.SetActive(false);
+    }
+}
+public void LastCar()
+{
+    SoundManager.instance.Click();
+     if(car1.activeInHierarchy)
+    {
+        car1.SetActive(false);
+        car2.SetActive(true);
+    }
+    else
+    {
+       car1.SetActive(true);
+       car2.SetActive(false);
+    }
 }
 public void Sound(string x)
 {

@@ -8,35 +8,53 @@ public class GameController : MonoBehaviour
 {
     public Text levelNo;
     public GameObject pausePanel;
-    public GameObject Bus;
+    public GameObject Bus,bus2;
     public Transform[] startPoint;
     public GameObject[] levels;
     MainMenu mainMenu;
     int selectedLevel;
-    void Start()
+    void Awake()
     {
         mainMenu = (MainMenu)FindObjectOfType(typeof(MainMenu));
+    }
+    void Start()
+    {
+        Debug.Log(MainMenu.selectedBus);
+        if(MainMenu.selectedBus==1)
+        {
+            Bus.SetActive(true);
+        }
+        else
+        {
+            bus2.SetActive(true);
+        }
         selectedLevel = PlayerPrefs.GetInt("SelectedLevel");
         levels[selectedLevel - 1].SetActive(true);
         levelNo.text = selectedLevel.ToString();
        // Bus = GameObject.FindGameObjectWithTag("Player");
         Bus.transform.position = startPoint[selectedLevel - 1].position;
         Bus.transform.rotation = startPoint[selectedLevel - 1].localRotation;
+        bus2.transform.position = startPoint[selectedLevel - 1].position;
+        bus2.transform.rotation = startPoint[selectedLevel - 1].localRotation;
     }
 
     public void Next()
     {
+        AdsScript.instance.AdmobThenUnity();
         Time.timeScale = 1;
-        mainMenu.selectLeveled++;
+        MainMenu.selectLeveled++;
+        PlayerPrefs.SetInt("SelectedLevel",PlayerPrefs.GetInt("SelectedLevel")+1);
         SceneManager.LoadScene("GamePlay");
     }
     public void Home()
     {
+        AdsScript.instance.AdmobThenUnity();
         Time.timeScale = 1;
         SceneManager.LoadScene("MainMenu");
     }
     public void Restart()
     {
+        AdsScript.instance.AdmobThenUnity();
         Time.timeScale = 1;
         SceneManager.LoadScene("GamePlay");
     }
@@ -44,6 +62,7 @@ public class GameController : MonoBehaviour
     {
         if (x)
         {
+            AdsScript.instance.UnityThenAdmob();
             Time.timeScale = 0;
         }
         else
